@@ -140,6 +140,12 @@
         <p class="copy-link" id="discordLink" style="color: black;">https://discord.gg/czV7M8JXXM</p>
         <button class="copy-btn" onclick="copyLink()" style="background-color: rgb(76, 175, 80);">Copy Link</button>
         <button class="cancel-btn" onclick="closeModal()" style="background-color: rgb(76, 175, 80);">Close</button>
+        <script>
+          window.addEventListener('message', (event) => {
+              // Set the received color as the background color of the page
+              document.body.style.backgroundColor = event.data;
+          });
+      </script>
       </div>
     </div>
     <script src="js/popup.js"></script>

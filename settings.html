@@ -1,35 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DON'T USE OR YOU WILL BE STUCK ON ONE BACKGROUND</title>
-  <script>
-    // Function to apply the background color on page load
-    function applySavedBackgroundColor() {
-      const savedColor = localStorage.getItem('backgroundColor');
-      if (savedColor) {
-        document.body.style.backgroundColor = savedColor;
-      }
-    }
-
-    // Function to change the background color and save it
-    function changeBackgroundColor(color) {
-      document.body.style.backgroundColor = color;
-      localStorage.setItem('backgroundColor', color);
-    }
-
-    // Apply the saved background color when the page loads
-    window.onload = applySavedBackgroundColor;
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1 - Color Controller</title>
+    <script>
+        let newWindow;
+        
+        function openPage2() {
+            newWindow = window.open('index.html', 'main');
+        }
+        
+        function changeWindowColor(color) {
+            if (newWindow) {
+                newWindow.postMessage(color, '*');
+            } else {
+                alert('Please open the main page first.');
+            }
+        }
+    </script>
 </head>
 <body>
-
-  <h2>Choose Background Color</h2>
-  <button onclick="changeBackgroundColor('lightblue')">Light Blue</button>
-  <button onclick="changeBackgroundColor('lightgreen')">Light Green</button>
-  <button onclick="changeBackgroundColor('lightcoral')">Light Coral</button>
-  <button onclick="changeBackgroundColor('white')">Reset</button>
-
+    <h1>Open and Control Background Color of Page 2</h1>
+    <button onclick="openPage2()">Open Main Page</button><br><br>
+    <button onclick="changeWindowColor('lightblue')">Light Blue</button>
+    <button onclick="changeWindowColor('lightgreen')">Light Green</button>
+    <button onclick="changeWindowColor('lightcoral')">Light Coral</button>
 </body>
 </html>
