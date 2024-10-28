@@ -9,20 +9,6 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
 }
-.mobileContainer18 {
-    display: flex;
-    width: 1%;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-}
-.mobileContainer19 {
-    display: flex;
-    width: 1%;
-    flex-wrap:wrap;
-    justify-content: center;
-    margin: 0 auto;
-}
 .Container18{
     display: flex;
     width: 1%;
@@ -42,13 +28,6 @@ body {
     width: 1%;
     flex-wrap:wrap;
     justify-content:center;
-    margin: 0 auto;
-}
-.mobileContainer15{
-    display: flex;
-    width: 1%;
-    flex-wrap:wrap;
-    justify-content: center;
     margin: 0 auto;
 }
 h1 {
