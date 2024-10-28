@@ -35,11 +35,8 @@ $(document).ready(function() {
 
         } else {
             const body = document.querySelector('body');
-            //body.style.backgroundColor = '#f1f1f1';
-            //body.style.color = 'black';
-            body.style = 'background: linear-gradient(100deg, rgba(0,0,0,1) 0%, rgba(128,3,251,1) 20%, rgba(107,6,255,1) 40%, rgba(88,31,255,1) 60%, rgba(43,0,255,1) 80%, rgba(0,0,0,1) 100%);';
-            // linear-gradient(39deg, rgba(0,0,0,1) 0%, rgba(128,3,251,1) 20%, rgba(107,6,255,1) 40%, rgba(88,31,255,1) 60%, rgba(43,0,255,1) 80%, rgba(0,0,0,1) 100%);
-
+            body.style.backgroundColor = '#f1f1f1';
+            body.style.color = 'black';
             const paragraphs = document.querySelectorAll('p');
             paragraphs.forEach(function(p) {
                 p.style.color = 'black';
