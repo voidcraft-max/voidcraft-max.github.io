@@ -15,9 +15,13 @@ function addGoogleAnalyticsTags() {
             // Render Analytics
             trackingId = "G-MND1TVBSXV";
             break;
-        case "client1.eaglercraft.win":
+        case "client.eaglercraft.win":
             // GitHub Pages / Client 1
             trackingId = "G-SGELV1H17J";
+            break;
+        case "client2.eaglercraft.win":
+            // OnRender / Client 2
+            trackingId = "G-995EPK8DXR";
             break;
         default:
             // Fallback Analytics
