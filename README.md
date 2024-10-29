@@ -23,7 +23,7 @@ You are welcome to open a pull request to contribute
 [![Contrib](https://contrib.rocks/image?repo=eaglercraftx1-8/eaglercraftx1-8.github.io)](https://github.com/eaglercraftx1-8/eaglercraftx1-8.github.io/graphs/contributors)
 
 > [!TIP]
-> Discord Server for this Site (Questions, Suggestions, etc. Also some voting for the site): https://discord.gg/czV7M8JXXM
+> Discord Server for this Site (Questions, Suggestions, etc. Also some voting for the site): https://discord.eaglercraft.win or https://discord.gg/czV7M8JXXM
 
 ### Links:
 - https://www.eaglercraft.win
