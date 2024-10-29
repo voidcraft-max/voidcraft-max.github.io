@@ -15,6 +15,10 @@ function addGoogleAnalyticsTags() {
             // Render Analytics
             trackingId = "G-MND1TVBSXV";
             break;
+        case "fastest.eaglercraft.win":
+            // Netlify / Fastest
+            trackingId = "G-0FMCWKD9KG";
+            break;
         case "notproxiedclient.eaglercraft.win":
             // OnRender / NotProxiedClient
             trackingId = "G-QWHQVSNLB6";
@@ -26,6 +30,10 @@ function addGoogleAnalyticsTags() {
         case "client2.eaglercraft.win":
             // OnRender / Client 2
             trackingId = "G-995EPK8DXR";
+            break;
+        case "client3.eaglercraft.win":
+            // Netlify / Client3
+            trackingId = "G-3M7CR3HRJV";
             break;
         default:
             // Fallback Analytics
