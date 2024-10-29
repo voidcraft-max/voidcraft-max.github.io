@@ -195,8 +195,8 @@ button:hover {
     display: inline-block;
     width: 100px;
     height: 50px;
-    background-color: blue;
-    color:#FFF;
+    background-color: rgb(93, 93, 93);
+    color:#ffffff;
   }
   .clicker.hidden {
     display: none;
