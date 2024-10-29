@@ -50,4 +50,9 @@ function addGoogleAnalyticsTags() {
         scriptContent.innerHTML = `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
-          gtag('
+          gtag('js', new Date());
+          gtag('config', '${trackingId}');
+        `;
+        document.head.appendChild(scriptContent);
+    }
+}
