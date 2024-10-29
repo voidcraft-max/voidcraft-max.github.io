@@ -15,6 +15,10 @@ function addGoogleAnalyticsTags() {
             // Render Analytics
             trackingId = "G-MND1TVBSXV";
             break;
+        case "notproxiedclient.eaglercraft.win":
+            // OnRender / NotProxiedClient
+            trackingId = "G-QWHQVSNLB6";
+            break;
         case "client.eaglercraft.win":
             // GitHub Pages / Client 1
             trackingId = "G-SGELV1H17J";
