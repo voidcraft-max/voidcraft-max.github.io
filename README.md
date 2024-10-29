@@ -1,8 +1,9 @@
 # EaglerCraftX
 EaglerCraftX Client for 1.8 (+ 1.5.2, 1.9 Options)  
 contact@eaglercraft.win  
-admin@eaglercraft.win  
+administrator@eaglercraft.win  
 developer@eaglercraft.win  
+marketing@eaglercraft.win  
 preston@eaglercraft.win
 
 > [!NOTE]
