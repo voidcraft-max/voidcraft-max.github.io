@@ -204,6 +204,7 @@ button:hover {
     display: inline-block;
     max-width: 200px;
     transition: transform 0.5s ease; 
+    text-align: center;
   }
   .clicker.hidden {
     display: none;
