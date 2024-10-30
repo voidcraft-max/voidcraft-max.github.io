@@ -1,6 +1,9 @@
 # EaglerCraftX
 EaglerCraftX Client for 1.8 (+ 1.5.2 Options)  
-developers@eaglercraft.win
+contact@eaglercraft.win  
+admins@eaglercraft.win  
+developers@eaglercraft.win  
+partnerships@eaglercraft.win
 
 > [!NOTE]
 > If you fork or use this repository code, please credit me.
