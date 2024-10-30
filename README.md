@@ -1,5 +1,5 @@
 # EaglerCraftX
-EaglerCraftX Client for 1.8 (+ 1.5.2, 1.9 Options)  
+EaglerCraftX Client for 1.8 (+ 1.5.2 Options)  
 developers@eaglercraft.win
 
 > [!NOTE]
