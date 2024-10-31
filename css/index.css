@@ -23,6 +23,13 @@ body {
     justify-content:center;
     margin: 0 auto;
 }
+.ContainerOther{
+    display: flex;
+    width: 1%;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin: 0 auto;
+}
 h1 {
     color: #000000;
 }
