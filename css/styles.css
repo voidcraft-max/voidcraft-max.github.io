@@ -36,7 +36,7 @@ main {
 .darkmodediv {
     padding-left: 480px;
     padding-right: 480px;
-    background: #8d8d8d;
+    background: grey;
 }
 
 .counter, .info, .clients, .danger-zone {
