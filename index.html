@@ -1,164 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Eaglercraft Web Clients Site">
     <meta name="keywords" content="Eaglercraft, EaglercraftX, Eaglercraft X, EaglercraftX 1.8, Eaglercraft X 1.8, EaglercraftX 1-8, Eaglercraft X 1-8, Eagler, Minecraft, MC, MC Web, MC Online, Minecraft Online, Minecraft Web, Eaglercraft 1.9, Eaglercraft 1-9, Eaglercraft 1.9, Eaglercraft 1-9, Eaglercraft 1.5.2, Eaglercraft 1-5-2, Eaglercraft Clients, Games, Games, 1.8, 1.8.8, 1-8, 1-8-8, 1.9, 1-9, 1.5, 1.5.2, 1-5, 1-5-2">
     <title>EaglerCraftX</title>
     <link rel="icon" type="image/x-icon" href="images/icon.jpeg">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/popup.css">
-    <link rel="stylesheet" href="css/searchbar.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2593894696548093" crossorigin="anonymous"></script>
-    <script src="js/ga4.js"></script> <!-- if you put the ga4 script in ANY other file, put a "/" before "js" -->
-    <script src="js/darkmode.js"></script>
-    <script src="js/showmodded.js"></script>
-  </head>
-  <body style="background-color: rgb(241, 241, 241); color: black;">
-    <h1 style="color: black;">Welcome to EaglerCraftX</h1>
-    <label for="darkModeCheckbox">Dark Mode Checkbox</label>
-    <input type="checkbox" id="darkModeCheckbox">
-    <p style="color: black;">Site views counter:</p>
-    <div align="center">
-      <a>
-        <img src="https://www.free-website-hit-counter.com/c.php?d=9&amp;id=177632&amp;s=16" border="0" alt="View Counter">
-      </a>
-    </div>
-    <p style="color: black;">These clients might be outdated.</p>
-    <p style="color: black;">Please give our github repository a star if you like this site (link at the bottom)</p>
-    <p style="color: black;">Server List and Mod List also at the bottom if you need it.</p>
-    <p style="color: black;">Have any questions, bug reports or suggestions? Join our Discord server by pressing the button below!</p>
-    <a href="https://discord.gg/czV7M8JXXM" class="dsc-btn" target="_blank">Discord Server</a>
-    <p style="color: black;">Scroll down to the bottom for buttons/links.</p>
-    <h2 class="pick-client" style="color: black;">Pick a Client:</h2>
-    <label for="showModded">Show Modded Clients</label>
-    <input type="checkbox" id="showModded">
-    <div class="search-container">
-      <input type="text" id="search-bar" placeholder="Search Clients...">
-    </div>
-    <!-- Version 1.8 Section -->
-    <div id="desktopVersion18">
-      <p class="version-text" style="color: black;">Version 1.8</p>
-      <div class="Container18">
-        <a class="version-link filter-button" href="./eagler-files/1.8/Main/index.html">
-          <button style="background-color: rgb(76, 175, 80);">Main 1.8 Client</button>
-        </a>
-        <a class="version-link filter-button" href="./eagler-files/1.8/resent4.0/index.html">
-          <button style="background-color: rgb(76, 175, 80);">Resent Client 4.0</button>
-        </a>
-        <a class="version-link filter-button" href="./eagler-files/1.8/Shadow/index.html">
-          <button style="background-color: rgb(76, 175, 80);">Shadow Client 4.0</button>
-        </a>
-        <a class="version-link filter-button" href="./eagler-files/1.8/Astra_Client.html">
-          <button style="background-color: rgb(76, 175, 80);">Astra Client 1.3</button>
-        </a>
-        <a class="version-link filter-button" href="./eagler-files/1.8/EaglerForge/index.html">
-          <button style="background-color: rgb(76, 175, 80);">EaglerForge</button>
-        </a>
-      </div>
-    </div>
-    <div id="moddedButtons">
-      <p class="version-text" style="color: black;">Version 1.8 Modded Clients</p>
-      <div class="Container18">
-        <a class="modded-buttons filter-button" href="./eagler-files/modded/1.8/Starlike_Client_Offline.html">
-          <button style="background-color: rgb(76, 175, 80);">Starlike Client</button>
-        </a>
-      </div>
-    </div>
-    <!-- Version 1.5.2 Section -->
-    <div id="desktopVersion152">
-      <p class="version-text" style="color: black;">Version 1.5.2</p>
-      <div class="Container15">
-        <a class="version-link filter-button" href="./eagler-files/1.5.2/main/index.html">
-          <button style="background-color: rgb(76, 175, 80);">Main 1.5.2 Client</button>
-        </a>
-        <a class="version-link filter-button" href="./eagler-files/1.5.2/PrecisionBeta.html">
-          <button style="background-color: rgb(76, 175, 80);">Precision Beta Client</button>
-        </a>
-        <a class="version-link filter-button" href="./eagler-files/1.5.2/precisionbeta2/index.html">
-          <button style="background-color: rgb(76, 175, 80);">Precision Beta 2 Client</button>
-        </a>
-      </div>
-    </div>
-    <!-- Other Section -->
-    <div id="desktopVersionOther">
-      <p class="version-text" style="color: black;">Other Versions</p>
-      <div class="ContainerOther">
-        <a class="version-link filter-button" href="./eagler-files/1.7.3/Beta_1.7.3_Offline_Download.html">
-          <button style="background-color: rgb(76, 175, 80);">1.7.3 Beta Client</button>
-        </a>
-        <a class="version-link filter-button" href="./eagler-files/infdev/Infdev-20100630-1.html">
-          <button style="background-color: rgb(76, 175, 80);">Infdev Client</button>
-        </a>
-      </div>
-    </div>
-    <h3>DANGER ZONE</h3>
-    <a onclick="openClrModal();" class="clr-btn">Reset All Local Data</a>
-    <a onclick="eruda.init();">
-      <button style="background-color: rgb(76, 175, 80);">Devtools</button>
-    </a>
-    <div id="clr-data-model" class="modal">
-      <div class="modal-content">
-        <h2>DANGER ZONE</h2>
-        <p style="color: black;">Are you sure you want to clear all your local data</p>
-        <button onclick="localStorage.clear(); location.reload();" style="background-color: rgb(76, 175, 80);">Yes</button>
-        <button class="cancel-btn" onclick="closeClrModal()" style="background-color: rgb(76, 175, 80);">Cancel</button>
-      </div>
-    </div>
-    <script src="js/mobilecheck.js"></script>
-    <script src="js/searchbar.js"></script>
-    <div class="footer" style="background-color: rgb(221, 221, 221);">
-      <p style="color: black;">I am not affiliated with EaglerCraft, Eagtek, Microsoft, or Mojang. I solely host these sites.</p>
-      <p style="color: black;">By using this site you agree to Google Analytics being used on this site</p>
-      <a href="https://github.com/eaglercraftx1-8/eaglercraftx1-8.github.io" class="source-btn" target="_blank" style="background-color: rgb(51, 51, 51);">Github Repository</a>
-      <a href="https://discord.gg/czV7M8JXXM" class="dsc-btn" target="_blank">Discord Server</a>
-      <a href="https://servers.eaglercraft.com/" target="_blank">
-        <button style="background-color: rgb(76, 175, 80);">Server List</button>
-      </a>
-      <a href="https://eaglerrinth.github.io/" target="_blank">
-        <button style="background-color: rgb(76, 175, 80);">EaglerRinth Mod List</button>
-      </a>
-<div id="showdiv2"></div>
-
-<div>
-  <a href="#showdiv2" class="clicker" target="_blank">
-  <a href="#showdiv2" class="clicker" tabindex="2">Settings Page</a>
-  <a href="#hidediv2" class="clicker hidden" tabindex="2">Settings Page</a>
-
-  <div class="hiddendiv nr1"></div>
-  <div class="hiddendiv nr2"></div>
-</div>
-
-    </div>
-    <div id="joinModal" class="modal" style="display: none;">
-      <div class="modal-content">
-        <h2>Join Our Discord Server!</h2>
-        <p style="color: black;">Join for voting, bug reports, suggestions, help, etc.</p>
-        <button onclick="openCopyModal()" style="background-color: rgb(76, 175, 80);">Yes</button>
-        <button class="cancel-btn" onclick="closeModal()" style="background-color: rgb(76, 175, 80);">Cancel</button>
-        <div style="margin-top: 20px;">
-          <input type="checkbox" id="dontShowCheckbox">
-          <label for="dontShowCheckbox">Don't show again</label>
-        </div>
-      </div>
-    </div>
-    <div id="copyModal" class="modal" style="display: none;">
-      <div class="modal-content">
-        <h2>Copy Discord Link</h2>
-        <p class="copy-link" id="discordLink" style="color: black;">https://discord.gg/czV7M8JXXM</p>
-        <button class="copy-btn" onclick="copyLink()" style="background-color: rgb(76, 175, 80);">Copy Link</button>
-        <button class="cancel-btn" onclick="closeModal()" style="background-color: rgb(76, 175, 80);">Close</button>
-        <script>
-          window.addEventListener('message', (event) => {
-              // Set the received color as the background color of the page
-              document.body.style.backgroundColor = event.data;
-          });
-      </script>
-      </div>
-    </div>
+    <script src="js/ga4.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/popup.js"></script>
-  </body>
+</head>
+<body>
+    <header>
+        <h1>Welcome to EaglerCraftX</h1>
+        <label for="darkModeCheckbox">Dark Mode</label>
+        <input type="checkbox" id="darkModeCheckbox">
+    </header>
+    <main>
+        <section class="counter">
+            <p>Site views counter:</p>
+            <div align="center">
+                <img src="https://www.free-website-hit-counter.com/c.php?d=9&amp;id=177632&amp;s=16" border="0" alt="View Counter">
+            </div>
+        </section>
+        <section class="info">
+            <p>These clients might be outdated.</p>
+            <p>Please give our <a href="https://github.com/eaglercraftx1-8/eaglercraftx1-8.github.io" target="_blank">GitHub repository</a> a star if you like this site.</p>
+            <p>Server List and Mod List also at the bottom if you need it.</p>
+            <p>Have any questions, bug reports, or suggestions? Join our Discord server by pressing the button below!</p>
+            <a href="https://discord.gg/czV7M8JXXM" class="dsc-btn" target="_blank">Discord Server</a>
+            <p>Scroll down to the bottom for buttons/links.</p>
+        </section>
+        <section class="clients">
+            <h2 class="pick-client">Pick a Client:</h2>
+            <label for="showModded">Show Modded Clients</label>
+            <input type="checkbox" id="showModded">
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search Clients...">
+            </div>
+            <!-- Version 1.8 Section -->
+            <div id="desktopVersion18">
+                <p class="version-text">Version 1.8</p>
+                <div class="Container18">
+                    <a class="version-link filter-button" href="./eagler-files/1.8/Main/index.html">
+                        <button>Main 1.8 Client</button>
+                    </a>
+                    <a class="version-link filter-button" href="./eagler-files/1.8/resent4.0/index.html">
+                        <button>Resent Client 4.0</button>
+                    </a>
+                    <a class="version-link filter-button" href="./eagler-files/1.8/Shadow/index.html">
+                        <button>Shadow Client 4.0</button>
+                    </a>
+                    <a class="version-link filter-button" href="./eagler-files/1.8/Astra_Client.html">
+                        <button>Astra Client 1.3</button>
+                    </a>
+                    <a class="version-link filter-button" href="./eagler-files/1.8/EaglerForge/index.html">
+                        <button>EaglerForge</button>
+                    </a>
+                </div>
+            </div>
+            <div id="moddedButtons">
+                <p class="version-text">Version 1.8 Modded Clients</p>
+                <div class="Container18">
+                    <a class="modded-buttons filter-button" href="./eagler-files/modded/1.8/Starlike_Client_Offline.html">
+                        <button>Starlike Client</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Version 1.5.2 Section -->
+            <div id="desktopVersion152">
+                <p class="version-text">Version 1.5.2</p>
+                <div class="Container15">
+                    <a class="version-link filter-button" href="./eagler-files/1.5.2/main/index.html">
+                        <button>Main 1.5.2 Client</button>
+                    </a>
+                    <a class="version-link filter-button" href="./eagler-files/1.5.2/PrecisionBeta.html">
+                        <button>Precision Beta Client</button>
+                    </a>
+                    <a class="version-link filter-button" href="./eagler-files/1.5.2/precisionbeta2/index.html">
+                        <button>Precision Beta 2 Client</button>
+                    </a>
+                </div>
+            </div>
+            <!-- Other Section -->
+            <div id="desktopVersionOther">
+                <p class="version-text">Other Versions</p>
+                <div class="ContainerOther">
+                    <a class="version-link filter-button" href="./eagler-files/1.7.3/Beta_1.7.3_Offline_Download.html">
+                        <button>1.7.3 Beta Client</button>
+                    </a>
+                    <a class="version-link filter-button" href="./eagler-files/infdev/Infdev-20100630-1.html">
+                        <button>Infdev Client</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="danger-zone">
+            <h3>DANGER ZONE</h3>
+            <a onclick="openClrModal();" class="clr-btn">Reset All Local Data</a>
+            <a onclick="eruda.init();">
+                <button>Devtools</button>
+            </a>
+            <div id="clr-data-model" class="modal">
+                <div class="modal-content">
+                    <h2>DANGER ZONE</h2>
+                    <p>Are you sure you want to clear all your local data?</p>
+                    <button>Yes</button>
+                    <button class="cancel-btn">Cancel</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>I am not affiliated with EaglerCraft, Eagtek, Microsoft, or Mojang. I solely host these sites.</p>
+        <p>By using this site you agree to Google Analytics being used on this site.</p>
+        <a href="https://github.com/eaglercraftx1-8/eaglercraftx1-8.github.io" class="source-btn" target="_blank">GitHub Repository</a>
+        <a href="https://discord.gg/czV7M8JXXM" class="dsc-btn" target="_blank">Discord Server</a>
+        <a href="https://servers.eaglercraft.com/" target="_blank">
+            <button class="server-list">Server List</button>
+        </a>
+        <a href="https://eaglerrinth.github.io/" target="_blank">
+            <button class="eaglerrinth-mod-list">EaglerRinth Mod List</button>
+        </a>
+    </footer>
+    <div id="joinModal" class="modal">
+        <div class="modal-content">
+            <h2>Join Our Discord Server!</h2>
+            <p>Join for voting, bug reports, suggestions, help, etc.</p>
+            <button>Yes</button>
+            <button class="cancel-btn">Cancel</button>
+            <div style="margin-top: 20px;">
+                <input type="checkbox" id="dontShowCheckbox">
+                <label for="dontShowCheckbox">Don't show again</label>
+            </div>
+        </div>
+    </div>
+    <div id="copyModal" class="modal">
+        <div class="modal-content">
+            <h2>Copy Discord Link</h2>
+            <p class="copy-link" id="discordLink">https://discord.gg/czV7M8JXXM</p>
+            <button class="copy-btn">Copy Link</button>
+            <button class="cancel-btn">Close</button>
+        </div>
+    </div>
+</body>
 </html>
