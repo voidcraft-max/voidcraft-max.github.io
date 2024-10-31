@@ -33,6 +33,11 @@ main {
     flex: 1;
     padding: 20px;
 }
+.darkmodediv {
+    padding-left: 480px;
+    padding-right: 480px;
+    background-color: #8d8d8d;
+}
 
 .counter, .info, .clients, .danger-zone {
     margin-bottom: 20px;
