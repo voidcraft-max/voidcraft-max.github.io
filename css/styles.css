@@ -63,11 +63,6 @@ button, .source-btn, .dsc-btn, .clr-btn {
     display: inline-block;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
-
-button:hover {
-    background-color: #45a049;
-    transform: scale(1.05);
-}
 .clr-btn:hover {
     background-color: #ff3c00;
     transform: scale(1.05);
