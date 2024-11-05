@@ -64,11 +64,22 @@ button, .source-btn, .dsc-btn, .clr-btn {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-button:hover, .source-btn:hover, .dsc-btn:hover, .clr-btn:hover {
+button:hover {
     background-color: #45a049;
     transform: scale(1.05);
 }
-
+.clr-btn:hover {
+    background-color: #ff3c00;
+    transform: scale(1.05);
+}
+.dsc-btn:hover {
+    background-color: #9656ce;
+    transform: scale(1.05);
+}
+.source-btn:hover {
+    background-color: #000;
+    transform: scale(1.05);
+}
 .source-btn {
     background-color: #000; /* Black color for GitHub button */
 }
