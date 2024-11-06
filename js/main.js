@@ -1,26 +1,6 @@
 // main.js
 
 $(document).ready(function() {
-    // Dark Mode Functionality
-    function updateDarkMode() {
-        var isChecked = $("#darkModeCheckbox").is(":checked");
-        var body = document.querySelector('body');
-        var paragraphs = document.querySelectorAll('p');
-        var headings = document.querySelectorAll('h1, h2, h3');
-        var footer = document.querySelector('.footer');
-        var buttons = document.querySelectorAll('button, .source-btn, .dsc-btn, .clr-btn');
-        var versionTexts = document.querySelectorAll('.version-text');
-
-        if (isChecked) {
-            body.classList.add('dark-mode');
-        } else {
-            body.classList.remove('dark-mode');
-        }
-    }
-
-    $("#darkModeCheckbox").on("change", updateDarkMode);
-    updateDarkMode();
-
     // Clr data
     function openClrModal() {
         document.getElementById('clr-data-model').style.display = 'flex';
