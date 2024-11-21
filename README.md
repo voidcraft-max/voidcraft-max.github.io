@@ -1,5 +1,7 @@
 # EaglerCraftX
 EaglerCraftX Client for 1.8 (+ 1.5.2 Options)  
+**https://www.eaglercraft.win**  
+
 contact@eaglercraft.win  
 admins@eaglercraft.win  
 developers@eaglercraft.win  
@@ -23,9 +25,6 @@ You are welcome to open a pull request to contribute
 
 > [!TIP]
 > Discord Server for this Site (Questions, Suggestions, etc. Also some voting for the site): https://discord.eaglercraft.win or https://discord.gg/czV7M8JXXM
-
-### Links:
-- https://www.eaglercraft.win
 
 > [!IMPORTANT]
 > **I am not affiliated, own, or work at Eagtek, Eaglercraft, Mojang, Microsoft, or Minecraft. I solely host these sites but have not made, worked on, or am affiliated with eaglercraft.**
