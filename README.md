@@ -1,5 +1,5 @@
 # EaglerCraftX
-EaglerCraftX Client for 1.8 (+ 1.5.2 Options)  
+EaglerCraft Client Collections
 **https://www.eaglercraft.win**  
 
 contact@eaglercraft.win  
