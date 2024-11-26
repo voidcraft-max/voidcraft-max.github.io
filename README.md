@@ -16,7 +16,7 @@ You are welcome to open a pull request to contribute
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=eaglercraftx1-8&label=Repository%20views&color=0e75b6&style=flat" alt="eaglercraftx1-8" /> (If you fork this repository the views add up from the forks unless you remove this in your fork)</p>
 
 > [!TIP]
-> If you are forking this repository and want to keep your fork up to date. You can use the sync fork button **(safer)** on the repository or https://github.com/apps/pull to auto sync **(but read the warning below)**.
+> If you are forking this repository and want to keep your fork up to date. You can use the sync fork button **(safer)** on the repository or https://github.com/apps/pull (Github Only) to auto sync **(but read the warning below)**.
 
 > [!WARNING]
 > If you choose to use the pull GitHub app, it deletes all the changes you made when it syncs to a new commit; so you should backup your changes.
