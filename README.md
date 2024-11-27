@@ -1,6 +1,6 @@
 # EaglerCraftX
 EaglerCraft Client Collections  
-**https://git.eaglercraft.win**  
+**https://git.eaglercraft.win/EaglercraftX-Client-Collections/EaglercraftX-Site**  
 **https://www.eaglercraft.win**  
 
 contact@eaglercraft.win  
