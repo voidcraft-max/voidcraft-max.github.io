@@ -23,9 +23,6 @@ You are more likely to be helped in the Discord Server than open an issue. You *
 > [!WARNING]
 > If you choose to use the pull GitHub app, it deletes all the changes you made when it syncs to a new commit; so you should backup your changes.
 
-## Contributors
-[![Contrib](https://contrib.rocks/image?repo=eaglercraftx1-8/eaglercraftx1-8.github.io)](https://github.com/eaglercraftx1-8/eaglercraftx1-8.github.io/graphs/contributors)
-
 > [!TIP]
 > Discord Server for this Site (Questions, Suggestions, etc. Also some voting for the site): https://discord.eaglercraft.win or https://discord.gg/czV7M8JXXM
 
