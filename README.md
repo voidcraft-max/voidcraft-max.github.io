@@ -21,7 +21,7 @@ You are welcome to open a pull request to contribute!
 > Discord Server for this Site (Questions, Suggestions, etc. Also some voting for the site): https://discord.eaglercraft.win or https://discord.gg/czV7M8JXXM  
 > You are more likely to be helped in the Discord Server than open an issue. You **MUST** join the discord server to apply for staff.
 
-> [!TIP]
+> [!NOTE]
 > If you are forking this repository and want to keep your fork up to date. You can use the sync fork button **(safer)** on the repository or https://github.com/apps/pull (Github Only) to auto sync **(but read the warning below)**.
 
 > [!WARNING]
