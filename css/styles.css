@@ -127,6 +127,7 @@ button:hover {
 
 .footer a:hover {
     text-decoration: underline;
+    opacity: 1;
 }
 
 .footer button {
@@ -163,6 +164,7 @@ button:hover {
 .footer button.eaglerrinth-mod-list:hover {
     background-color: #a751f2; /* Slightly lighter shade for hover effect */
     transform: scale(1.05);
+    opacity: 1;
 }
 
 /* Modal Styles */
