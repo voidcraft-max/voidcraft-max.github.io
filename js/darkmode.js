@@ -43,8 +43,8 @@ $(document).ready(function() {
             head.style.color = 'black';
             
             const foot = document.querySelector('.footer');
-            foot.style.backgroundColor = '#30d3d2';
-            foot.style.color = '#fff';
+            foot.style.backgroundColor = '#8cbfbf';
+            foot.style.color = '#ffffff';
             const gitBtn = document.querySelector('.source-btn');
             gitBtn.style.backgroundColor = '#333333';
             const buttons = document.querySelectorAll('button');
