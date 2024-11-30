@@ -5,7 +5,7 @@ $(document).ready(function() {
             const body = document.querySelector('body');
             body.style.backgroundColor = '#141414';
             body.style.color = '#f1f1f1';
-            document.body.style.backgroundImage= 'none';  
+            body.style.backgroundImage= 'none';  
             const paragraphs = document.querySelectorAll('p');
             paragraphs.forEach(function(p) {
                 p.style.color = '#f1f1f1';
@@ -32,7 +32,7 @@ $(document).ready(function() {
             const body = document.querySelector('body');
             body.style.backgroundColor = '#f1f1f1';
             body.style.color = 'black';
-            document.body.style.backgroundImage= "url('/images/snow1.jpg')";  
+            body.style.backgroundImage= "url('/images/snow1.jpg')";  
             const paragraphs = document.querySelectorAll('p');
             paragraphs.forEach(function(p) {
                 p.style.color = 'black';
