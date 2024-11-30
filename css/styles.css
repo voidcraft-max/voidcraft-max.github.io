@@ -115,13 +115,14 @@ button:hover {
     color: white; /* Light text color for footer */
     padding: 10px;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .footer a {
     color: white; /* Light text color for footer links */
     text-decoration: none;
     margin: 0 10px;
+    opacity: 1;
 }
 
 .footer a:hover {
@@ -138,21 +139,25 @@ button:hover {
     text-decoration: none;
     display: inline-block;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    opacity: 1;
 }
 
 .footer button.server-list {
     background-color: #000; /* Black color for Server List button */
     padding-bottom: 25px;
+    opacity: 1;
 }
 
 .footer button.server-list:hover {
     background-color: #333; /* Slightly lighter shade for hover effect */
     transform: scale(1.05);
+    opacity: 1;
 }
 
 .footer button.eaglerrinth-mod-list {
     background-color: #9656ce; /* Same color as Discord link button */
     padding-bottom: 25px;
+    opacity: 1;
 }
 
 .footer button.eaglerrinth-mod-list:hover {
