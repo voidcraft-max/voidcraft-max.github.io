@@ -3,6 +3,7 @@ EaglerCraft Client Collections
 **https://git.eaglercraft.win/EaglercraftX-Client-Collections/EaglercraftX-Site**  
 **https://www.eaglercraft.win**  
 
+**https://discord.eaglercraft.win**  
 contact@eaglercraft.win  
 admins@eaglercraft.win  
 developers@eaglercraft.win  
