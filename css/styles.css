@@ -21,7 +21,7 @@ body.dark-mode {
 }
 
 header {
-    background-color: #4caf50;
+    background-color: #8ffef8;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -64,6 +64,9 @@ button, .source-btn, .dsc-btn, .clr-btn {
     text-decoration: none;
     display: inline-block;
     transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.clientbutton button {
+    background-color: #0095ff;
 }
 button:hover {
     transform: scale(1.05)
