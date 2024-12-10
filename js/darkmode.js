@@ -46,10 +46,10 @@ $(document).ready(function() {
             foot.style.backgroundColor = '#8cbfbf';
             foot.style.color = '#ffffff';
             const gitBtn = document.querySelector('.source-btn');
-            gitBtn.style.backgroundColor = '#333333';
+            gitBtn.style.backgroundColor = '#0095ff';
             const buttons = document.querySelectorAll('button');
             buttons.forEach(function(button) {
-                button.style.backgroundColor = '#4caf50';
+                button.style.backgroundColor = '#0095ff';
             });
             const versionTexts = document.querySelectorAll('.version-text');
             versionTexts.forEach(function(vt) {
