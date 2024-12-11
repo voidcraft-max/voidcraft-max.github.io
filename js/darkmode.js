@@ -44,7 +44,7 @@ $(document).ready(function() {
             headTwo.style.color = 'black';
             const head = document.querySelector('h1');
             head.style.color = 'black';
-            head.style.textShadow = '-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white';
+            head.style.textShadow = '-0px 0 white, 0 0px white, 0px 0 white, 0 -0px white';
             
             const foot = document.querySelector('.footer');
             foot.style.backgroundColor = '#8cbfbf';
