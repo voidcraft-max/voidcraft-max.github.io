@@ -14,6 +14,7 @@ $(document).ready(function() {
             headTwo.style.color = '#f1f1f1';
             const head = document.querySelector('h1');
             head.style.color = '#f1f1f1';
+            head.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
             
             const foot = document.querySelector('.footer');
             foot.style.backgroundColor = '#010101';
@@ -43,6 +44,7 @@ $(document).ready(function() {
             headTwo.style.color = 'black';
             const head = document.querySelector('h1');
             head.style.color = 'black';
+            head.style.textShadow = '-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white';
             
             const foot = document.querySelector('.footer');
             foot.style.backgroundColor = '#8cbfbf';
@@ -58,7 +60,7 @@ $(document).ready(function() {
                 vt.style.color = 'black';
             });
             const dZone = document.querySelector('.danger-zone');
-            dZone.style.color = '#f1f1f1';
+            dZone.style.color = '#010101';
         }
     }
     $("#darkModeCheckbox").on("change", function() {
