@@ -32,6 +32,8 @@ $(document).ready(function() {
             });
             const dZone = document.querySelector('.danger-zone');
             dZone.style.color = '#ff6847';
+            const dZoneText = document.querySelector('.modal-content')
+            dZoneText.style.p.color = '#ff3c00';
         } else {
             const body = document.querySelector('body');
             body.style.backgroundColor = '#f1f1f1';
@@ -63,6 +65,8 @@ $(document).ready(function() {
             });
             const dZone = document.querySelector('.danger-zone');
             dZone.style.color = '#010101';
+            const dZoneText = document.querySelector('.modal-content')
+            dZoneText.style.p.color = '#010101';
         }
     }
     $("#darkModeCheckbox").on("change", function() {
