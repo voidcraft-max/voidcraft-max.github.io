@@ -28,6 +28,8 @@ $(document).ready(function() {
             versionTexts.forEach(function(vt) {
                 vt.style.color = '#f1f1f1';
             });
+            const dZone = document.querySelector('.danger-zone');
+            dZone.style.color = '#ff6847';
         } else {
             const body = document.querySelector('body');
             body.style.backgroundColor = '#f1f1f1';
@@ -55,6 +57,8 @@ $(document).ready(function() {
             versionTexts.forEach(function(vt) {
                 vt.style.color = 'black';
             });
+            const dZone = document.querySelector('.danger-zone');
+            dZone.style.color = '#f1f1f1';
         }
     }
     $("#darkModeCheckbox").on("change", function() {
