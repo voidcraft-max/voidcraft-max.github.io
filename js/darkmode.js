@@ -14,6 +14,7 @@ $(document).ready(function() {
             headTwo.style.color = '#f1f1f1';
             const head = document.querySelector('h1');
             head.style.color = '#f1f1f1';
+            head.classList.add('text-shadow');
             head.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
             
             const foot = document.querySelector('.footer');
@@ -44,6 +45,7 @@ $(document).ready(function() {
             headTwo.style.color = 'black';
             const head = document.querySelector('h1');
             head.style.color = 'black';
+            head.classList.remove('text-shadow');
             head.style.textShadow = '-0px 0 white, 0 0px white, 0px 0 white, 0 -0px white';
             
             const foot = document.querySelector('.footer');
