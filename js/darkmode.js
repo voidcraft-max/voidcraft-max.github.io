@@ -71,6 +71,10 @@ $(document).ready(function() {
             localStorage.setItem('darkModeOn', false);
         }
     }
+    if (localStorage.getItem('darkModeOn')) {
+        var checked = true;
+        updateDarkMode(checked);
+    }
     $("#darkModeCheckbox").on("change", function() {
         var checked = $("#darkModeCheckbox").is(":checked");
         updateDarkMode(checked);
