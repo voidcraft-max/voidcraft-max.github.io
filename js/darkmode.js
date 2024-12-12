@@ -67,11 +67,11 @@ $(document).ready(function() {
             dZone.style.color = '#010101';
             const dZoneText = document.querySelector('.modal');
             dZoneText.style.color = '#010101';
-            localStorage.setItem('darkModeOn', false);
+            localStorage.removeItem("myCat");
         }
     }
     if (localStorage.getItem('darkModeOn') == true) {
-        $('darkModeCheckbox').prop('checked', true);
+        $('darkModeCheckbox').checked;
         var checked = true;
         updateDarkMode(checked);
     }
