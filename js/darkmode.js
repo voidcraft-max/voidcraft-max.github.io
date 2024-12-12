@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    function updateDarkMode() {
+    function updateDarkMode(isChecked) {
         var isChecked = $("#darkModeCheckbox").is(":checked");
         if (isChecked) {
             const body = document.querySelector('body');
@@ -34,6 +34,7 @@ $(document).ready(function() {
             dZone.style.color = '#ff6847';
             const dZoneText = document.querySelector('.modal');
             dZoneText.style.color = '#ff3c00';
+            localStorage.setItem('darkModeOn', true);
         } else {
             const body = document.querySelector('body');
             body.style.backgroundColor = '#f1f1f1';
@@ -67,10 +68,12 @@ $(document).ready(function() {
             dZone.style.color = '#010101';
             const dZoneText = document.querySelector('.modal');
             dZoneText.style.color = '#010101';
+            localStorage.setItem('darkModeOn', false);
         }
     }
     $("#darkModeCheckbox").on("change", function() {
-        updateDarkMode();
+        var checked = $("#darkModeCheckbox").is(":checked");
+        updateDarkMode(checked);
     });
     updateDarkMode();
 });
