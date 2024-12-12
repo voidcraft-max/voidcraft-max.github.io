@@ -1,6 +1,5 @@
 $(document).ready(function() {
-    function updateDarkMode() {
-        var isChecked = $("#darkModeCheckbox").is(":checked");
+    function updateDarkMode(isChecked) {
         if (isChecked) {
             const body = document.querySelector('body');
             body.style.backgroundColor = '#141414';
@@ -73,10 +72,12 @@ $(document).ready(function() {
     }
     if (localStorage.getItem('darkModeOn')) {
         $('darkModeCheckBox').prop('checked', true);
+        var checked = true;
         updateDarkMode(checked);
     }
     $("#darkModeCheckbox").on("change", function() {
-        updateDarkMode();
+        var checked = $("#darkModeCheckbox").is(":checked");
+        updateDarkMode(checked);
     });
     updateDarkMode();
 });
