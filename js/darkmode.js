@@ -71,8 +71,8 @@ $(document).ready(function() {
         }
     }
     if (localStorage.getItem('darkModeOn') == true) {
-        $('darkModeCheckbox').checked;
-        var checked = true;
+        $('darkModeCheckbox').prop("checked");
+        var checked = $("#darkModeCheckbox").is(":checked");
         updateDarkMode(checked);
     }
     $("#darkModeCheckbox").on("change", function() {
