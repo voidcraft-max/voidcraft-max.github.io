@@ -72,11 +72,11 @@ $(document).ready(function() {
     }
     if (localStorage.getItem('darkModeOn') == true) {
         document.getElementById('darkModeCheckbox').checked = true; 
-        var checked = $("#darkModeCheckbox").is(":checked");
+        var checked = document.getElementById('darkModeCheckbox').checked;
         updateDarkMode(checked);
     }
     $("#darkModeCheckbox").on("change", function() {
-        var checked = $("#darkModeCheckbox").is(":checked");
+        var checked = document.getElementById('darkModeCheckbox').checked;
         updateDarkMode(checked);
     });
     updateDarkMode();
