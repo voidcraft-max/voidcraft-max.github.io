@@ -67,7 +67,7 @@ $(document).ready(function() {
             dZone.style.color = '#010101';
             const dZoneText = document.querySelector('.modal');
             dZoneText.style.color = '#010101';
-            localStorage.removeItem("myCat");
+            localStorage.removeItem("darkModeOn");
         }
     }
     if (localStorage.getItem('darkModeOn') == true) {
