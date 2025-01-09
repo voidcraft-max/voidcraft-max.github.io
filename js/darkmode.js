@@ -17,7 +17,7 @@ $(document).ready(function() {
             head.style.textShadow = '-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black';
             
             const foot = document.querySelector('.footer');
-            foot.style.backgroundColor = '#010101';
+            foot.style.backgroundColor = '#6C8592';
             const gitBtn = document.querySelector('.source-btn');
             gitBtn.style.backgroundColor = '#ff6847';
             
