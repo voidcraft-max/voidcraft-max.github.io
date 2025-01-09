@@ -53,7 +53,7 @@ $(document).ready(function() {
             head.style.textShadow = '-0px 0 white, 0 0px white, 0px 0 white, 0 -0px white';
             
             const foot = document.querySelector('.footer');
-            foot.style.backgroundColor = '#8cbfbf';
+            foot.style.backgroundColor = '#000000';
             foot.style.color = '#ffffff';
             const gitBtn = document.querySelector('.source-btn');
             gitBtn.style.backgroundColor = '#0095ff';
