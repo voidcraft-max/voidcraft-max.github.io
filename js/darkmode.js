@@ -41,7 +41,7 @@ $(document).ready(function() {
             body.style.backgroundImage= "url('/images/grass-background.jpg')";  
             const paragraphs = document.querySelectorAll('p');
             paragraphs.forEach(function(p) {
-                p.style.color = 'gray';
+                p.style.color = 'black';
             });
             const headTwo = document.querySelector('h2');
             headTwo.style.color = 'black';
