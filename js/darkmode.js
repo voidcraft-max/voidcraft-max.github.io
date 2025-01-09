@@ -41,9 +41,7 @@ $(document).ready(function() {
             body.style.backgroundImage= "url('/images/dirt wallpaper.jpg')";  
             const paragraphs = document.querySelectorAll('p');
             paragraphs.forEach(function(p) {
-                p.style.color = 'black';
-                p.classList.add('text-shadow');
-                p.style.textShadow = '-1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray';
+                p.style.color = 'gray';
             });
             const headTwo = document.querySelector('h2');
             headTwo.style.color = 'black';
