@@ -38,7 +38,7 @@ $(document).ready(function() {
             const body = document.querySelector('body');
             body.style.backgroundColor = '#f1f1f1';
             body.style.color = 'black';
-            body.style.backgroundImage= "url('/images/dirt wallpaper.jpg')";  
+            body.style.backgroundImage= "url('/images/grass-background.jpg')";  
             const paragraphs = document.querySelectorAll('p');
             paragraphs.forEach(function(p) {
                 p.style.color = 'gray';
