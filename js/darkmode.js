@@ -57,7 +57,7 @@ $(document).ready(function() {
             gitBtn.style.backgroundColor = '#0095ff';
             const buttons = document.querySelectorAll('button');
             buttons.forEach(function(button) {
-                button.style.backgroundColor = '#0095ff';
+                button.style.backgroundColor = '#4caf50';
             });
             const versionTexts = document.querySelectorAll('.version-text');
             versionTexts.forEach(function(vt) {
