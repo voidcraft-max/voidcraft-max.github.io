@@ -146,30 +146,6 @@ button:hover {
     opacity: 1;
 }
 
-.footer button.server-list {
-    background-color: #000; /* Black color for Server List button */
-    padding-bottom: 25px;
-    opacity: 1;
-}
-
-.footer button.server-list:hover {
-    background-color: #333; /* Slightly lighter shade for hover effect */
-    transform: scale(1.05);
-    opacity: 1;
-}
-
-.footer button.eaglerrinth-mod-list {
-    background-color: #9656ce; /* Same color as Discord link button */
-    padding-bottom: 25px;
-    opacity: 1;
-}
-
-.footer button.eaglerrinth-mod-list:hover {
-    background-color: #a751f2; /* Slightly lighter shade for hover effect */
-    transform: scale(1.05);
-    opacity: 1;
-}
-
 /* Modal Styles */
 .modal {
     display: none;
