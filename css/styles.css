@@ -45,7 +45,7 @@ main {
     margin-bottom: 20px;
 }
 
-.Container18, .Container15, .ContainerOther {
+.Container18, .Container15, .Container112, .ContainerOther {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
